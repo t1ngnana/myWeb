@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback Form</title>
+</head>
+<body>
+	<form>
+	<P>Please fill out this form to help us improve our site.</P>
+	<label>Name:
+		<input type="text" name="name" size="25"
+	maxlength="30"></label></p>
+	<br>Comments:<br><textarea rows="4 " cols="50">Enter comments here.</textarea>
+	<br><label>E-mail Address:
+		<input type="text" name="Address" size="25"
+		maxlength="30"></label></p><br>
+		<p><strong>Things you liked:</strong></p>
+		Site design
+		<input type="checkbox"name="Things" value="links">Links
+		<input type="checkbox"name="Things" value="ease">Ease of use
+		<input type="checkbox"name="Things" value="images">Images
+		<input type="checkbox"name="Things" value="source">Source code
+		<p><strong>How did you get to our site?</strong></p>
+		Search engine<br>
+		<input type="radio"name="engine" value="links">Links from another site<br>
+		<input type="radio"name="engine" value="deitel">Deitel.com Web site<br>
+		<input type="radio"name="engine" value="book">Reference in a book<br>
+		<input type="radio"name="engine" value="other">other
+		<p>Rate our site:</p>
+		<select name="Rate">
+			<option value="Bad">Bad</option>
+			<option value="So-so">So-so</option>
+			<option value="Good">Good</option>
+			<option value="Amazing">Amazing</option>
+		</select>
+		<br>
+		<input type="submit"value="submit">
+		<input type="reset" value="clear">
+
+	</form>
+</body>
+</html>
